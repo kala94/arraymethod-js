@@ -1,0 +1,103 @@
+<!doctype html>
+ <html>
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title> Array Methods </title>
+   <style>
+    table,th,td 
+     { 
+	  text-align:center;
+      border-collapse:collapse;
+	  border:3px solid black;
+	 }
+   </style>
+  </head>
+  <body>
+   <!--- Array methods --->
+   <table> 
+   <tr>    
+    <th> Method Name </th>
+	<th> Process </th>
+	<th> Changes of the array </th>
+	<th> Return </th>
+   </tr>
+   <tr>
+    <td> push() </td>
+	<td> Adds the specified elements to the end of an array. </td>
+    <td> It change the original array. </td>	
+	<td> Returns the new length of the array.</td>
+   </tr>
+   <tr>
+    <td> pop() </td>
+	<td> Removes the last element from an array.</td>
+    <td> It change the original array </td>	
+	<td> Returns the remove element.</td>
+   </tr>
+   <tr>
+    <td> shift() </td>
+	<td> Removes the first element of the array.</td>
+    <td> It change the original array </td>	
+	<td> Returns the remove element.</td>
+   </tr>
+   <tr>
+    <td> unshift() </td>
+	<td> Add the first element of the array.</td>
+    <td> It change the original array. </td>	
+	<td> Returns the new length of the array.</td>
+   </tr>
+   <tr>
+    <td> length() </td>
+	<td> The number of elements in that array.</td>
+    <td> Does not change the original array. </td>	
+	<td> Returns the numeric value.</td>
+   </tr>
+   <tr>
+    <td> join() </td>
+	<td> Creates and returns a new string by concatenating all of the elements in this array.</td>
+    <td> Does not change the original array. </td>	
+	<td> Empty string is returned.</td>
+   </tr>
+   <tr>
+    <td> tostring() </td>
+	<td> Returns a string representing the specified array and its elements.</td>
+    <td> Does not change the original array. </td>	
+	<td> Return a string value.</td>
+   </tr>
+   <tr>
+    <td> concat() </td>
+	<td> Adds the new string to the old string and returns the overall string.</td>
+    <td> Does not change the existing arrays. </td>	
+	<td> Returns a new string.</td>
+   </tr>
+   <tr>
+    <td> splice() </td>
+	<td> Changes the contents of an array by removing or replacing existing elements 
+	     and/or adding new elements in place.</td>
+    <td> Removing, replacing, or adding values and returns the affected values. </td>	
+	<td> If only one element is removed, an array of one element is returned. 
+	     If no elements are removed, an empty array is returned.</td>
+   </tr>
+   <tr>
+    <td> slice() </td>
+	<td> Returns a shallow copy of a portion of an array into a new array object selected from start to end 
+	    ( end not included) where start and end represent the index of items in that array.</td>
+    <td> The original array will not be modified. </td>	
+	<td> Returns selected elements in an array, as a new array.</td>
+   </tr>
+   <tr>
+    <td> indexof() </td>
+	<td> Starts at a specified index and searches from left to right. </td>
+    <td> Does not change the original array.</td>	
+	<td> Returns the first index at which a given element can be found in the array, or -1 if it is not present. </td>
+   </tr>
+   <tr>
+    <td> lastindexof() </td>
+	<td> String values searches this string and returns the index of the last occurrence of the specified substring. </td>
+    <td> Does not change the original array. </td>	
+	<td> Returns the index from the beginning (position 0). The lastIndexOf() method returns -1 if the value 
+	     is not found.</td>
+   </tr>
+  </table>
+  </body>
+</html>
